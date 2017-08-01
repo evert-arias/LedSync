@@ -89,7 +89,7 @@ You are now ready to start calling the methods of your LEDs and NeoPixels.
 
 
 
-[MIT](https://github.com/ariascode/MyBlinker/blob/master/LICENSE.md) © [Evert Arias](https://ariascode.com)
+[MIT](../LICENSE.md) © [Evert Arias](https://ariascode.com)
 
 
 
