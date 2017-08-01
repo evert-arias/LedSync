@@ -33,7 +33,7 @@ This object represents a LED with all its methods and properties. You must creat
 Led myLed(pin);
 ```
 
-[LED Object Methods](/Led.md)
+[LED Object Methods](/docs/Led.md)
 
 
 
@@ -46,7 +46,7 @@ This object represents a NeoPixel with all its methods and properties. You must 
 NeoPixel myPixel;
 ```
 
- [NeoPixel Object Methods](/NeoPixel.md)
+ [NeoPixel Object Methods](/docs/NeoPixel.md)
 
 
 
@@ -81,9 +81,9 @@ void loop(){
 
 You are now ready to start calling the methods of your LEDs and NeoPixels.
 
-[LED Object Methods](/led.md)
+[LED Object Methods](/docs/led.md)
 
-[NeoPixel Object Methods](/NeoPixel.md)
+[NeoPixel Object Methods](/docs/NeoPixel.md)
 
 
 
