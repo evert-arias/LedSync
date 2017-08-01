@@ -1,5 +1,7 @@
 # NeoPixel Object Methods
 
+[![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)
+
 
 
 ### Set color
@@ -107,3 +109,6 @@ Turn OFF the NeoPixel for a time then call a callback function.
 myPixel.offUntil(offDuration, callback);
 ````
 
+
+
+[MIT](https://github.com/ariascode/MyBlinker/blob/master/LICENSE.md) © [Evert Arias](https://ariascode.com)

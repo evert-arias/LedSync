@@ -25,11 +25,11 @@ You must have them installed in your environment in order for it to compile.
 
 ### Creating a LED Object
 
-This object represents a LED with all its methods and properties. You must create one of this objects for each connected LED.
+This object represents a LED with all its methods and properties. You must create one of this objects for each connected LED. You must pass the pin number where the LED is connected as an argument of the constructor method of the class.
 
 ``` c++
 // Led Object
-// pin: The number of the pin where the LED is connected.
+// pin: The pin number where the LED is connected.
 Led myLed(pin);
 ```
 
@@ -39,7 +39,7 @@ Led myLed(pin);
 
 ### Creating NeoPixel Object
 
-This object represents a NeoPixel with all its methods and properties. You must create one of this objects for each connected NeoPixel. The order in which these objects are created must match their position in the NeoPixelStrip. 
+This object represents a NeoPixel with all its methods and properties. You must create one of this objects for each NeoPixel. The order in which these objects are created must match their position in the NeoPixelStrip. 
 
 ``` c++
 // NeoPixel Object
@@ -52,7 +52,7 @@ NeoPixel myPixel;
 
 ### Adding Objects to LedSync
 
-LedSync is the core processor, you must add to it all instances of LEDs and NeoPixels. Don't forget to pass them as reference, otherwise it won't compile.
+LedSync is the core processor object, you must add to it, all instances of LEDs and NeoPixels. Don't forget to pass them as reference, otherwise it won't compile.
 
 ``` c++
 void setup(){
@@ -86,8 +86,6 @@ You are now ready to start calling the methods of your LEDs and NeoPixels.
 [NeoPixel Object Methods](/docs/NeoPixel.md)
 
 
-
-## Copyright
 
 [MIT](https://github.com/ariascode/MyBlinker/blob/master/LICENSE.md) © [Evert Arias](https://ariascode.com)
 

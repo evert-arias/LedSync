@@ -1,10 +1,12 @@
 # LED Object Methods
 
+[![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)
+
 
 
 ### Blink
 
-You may call the **Blink** function everywhere in the sketch. 
+Blink the LED with required cycles and sequences.
 
 ```c++
 /* 
@@ -71,3 +73,6 @@ Turn OFF the LED for a time then call a callback function.
 myLed.offUntil(offDuration, callback);
 ```
 
+
+
+[MIT](https://github.com/ariascode/MyBlinker/blob/master/LICENSE.md) © [Evert Arias](https://ariascode.com)
