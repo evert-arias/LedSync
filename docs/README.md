@@ -81,9 +81,11 @@ void loop(){
 
 You are now ready to start calling the methods of your LEDs and NeoPixels.
 
-[LED Object Methods](/docs/led.md)
+[LED Object Methods](/docs/Led.md)
 
 [NeoPixel Object Methods](/docs/NeoPixel.md)
+
+
 
 
 
