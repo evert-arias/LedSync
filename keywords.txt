@@ -1,7 +1,20 @@
-LedSync	KEYWORD1
+#######################################
+# Syntax Coloring Map For ExampleLibrary
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+LedSyncClass	KEYWORD1
 NeoPixel	KEYWORD1
 Color	KEYWORD1
 Led     KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
 setPin	KEYWORD2
 setPolarity	KEYWORD2
 blink	KEYWORD2
@@ -31,3 +44,16 @@ setNeoPixelPin	KEYWORD2
 setNeoPixelType	KEYWORD2
 add	KEYWORD2
 
+#######################################
+# Instances (KEYWORD2)
+#######################################
+LedSync	KEYWORD2
+#######################################
+# Constants (LITERAL1)
+#######################################
+DEFAULT_NEOPIXEL_PIN	LITERAL1
+DEFAULT_PIXEL_COLOR	LITERAL1
+DEFAULT_PIXEL_BRIGHTNESS	LITERAL1
+COMMON_NEGATIVE	LITERAL1
+COMMON_POSITIVE	LITERAL1
+MINIMUM_INTERVAL	LITERAL1
