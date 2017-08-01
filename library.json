@@ -1,0 +1,32 @@
+{
+  "name": "LedSync",
+  "keywords": "led, synchronous, blink, flash, neopixel, neopixels, arduino-library, lightemittingdiode, timer",
+  "description": "Arduino library to perform synchronous blinking operations with LEDs and NeoPixels",
+  "authors":
+  [
+    {
+      "name": "Evert Arias",
+      "url": "http://evert.ariascode.com/about"
+    }
+  ],
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/evert-arias/LedSync.git"
+  },
+  "dependencies": 
+  [
+    {
+      "name": "Adafruit NeoPixel ",
+      "frameworks": "arduino"
+    },
+    {
+      "name": "LinkedList",
+      "frameworks": "arduino"
+    }
+  ],
+  "frameworks": "arduino"
+}
+
+
+ 
