@@ -111,6 +111,6 @@ myPixel.offUntil(offDuration, callback);
 
 
 
+## Copyright
 
-
-[MIT](https://github.com/ariascode/MyBlinker/blob/master/LICENSE.md) © [Evert Arias](https://ariascode.com)
+[[MIT](../LICENSE.md) © [Evert Arias](https://ariascode.com)

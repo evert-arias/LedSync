@@ -87,7 +87,7 @@ You are now ready to start calling the methods of your LEDs and NeoPixels.
 
 
 
-
+## Copyright
 
 [MIT](../LICENSE.md) © [Evert Arias](https://ariascode.com)
 
