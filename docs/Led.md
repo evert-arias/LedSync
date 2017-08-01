@@ -77,4 +77,4 @@ myLed.offUntil(offDuration, callback);
 
 ## Copyright
 
-[[MIT](../LICENSE.md) © [Evert Arias](https://ariascode.com)](https://ariascode.com)
+[[MIT](../LICENSE.md) © [Evert Arias](https://ariascode.com)]

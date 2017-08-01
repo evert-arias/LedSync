@@ -113,4 +113,4 @@ myPixel.offUntil(offDuration, callback);
 
 ## Copyright
 
-[[MIT](../LICENSE.md) © [Evert Arias](https://ariascode.com)
+[[MIT](../LICENSE.md) © [Evert Arias](https://ariascode.com)]
