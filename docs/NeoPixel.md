@@ -6,6 +6,8 @@
 
 ### Set color
 
+[Color Object](/docs/Color.md)
+
 The ``` setColor()``` method allow you to set the color of the NeoPixel. If you don't set the color, green will be selected by default.
 
 ```c++
@@ -24,8 +26,6 @@ There is also a PixelColor object included, which allows you to set the color of
 // Set the pixel color using a predefined value.
 myPixel.setColor(PixelColor.blue());
 ```
-
-[Color Object](/docs/Color.md)
 
 
 
@@ -120,6 +120,8 @@ Set the NeoPixel Id within the NeoPixelStrip.
 ```` c++
 myPixel.setId();
 ````
+
+
 
 
 

@@ -25,6 +25,8 @@ You must have them installed in your environment in order for it to compile.
 
 ### Creating a LED Object
 
+[LED Object](/docs/Led.md)
+
 This object represents a LED with all its methods and properties. You must create one of this objects for each connected LED. You must pass the pin number where the LED is connected as an argument of the constructor method of the class.
 
 ``` c++
@@ -34,19 +36,17 @@ This object represents a LED with all its methods and properties. You must creat
 Led myLed(pin, polarity);
 ```
 
-[LED Object](/docs/Led.md)
-
 
 
 ### Creating NeoPixel Object
+
+ [NeoPixel Object](/docs/NeoPixel.md)
 
 This object represents a NeoPixel with all its methods and properties. You must create one of this objects for each NeoPixel. The order in which these objects are created must match their position in the NeoPixelStrip. 
 
 ``` c++
 NeoPixel myPixel;
 ```
-
- [NeoPixel Object](/docs/NeoPixel.md)
 
 
 
@@ -108,6 +108,8 @@ You are now ready to start calling the methods of your LEDs and NeoPixels.
 [NeoPixel Object](/docs/NeoPixel.md)
 
 [Color Object](/docs/Color.md)
+
+
 
 
 
