@@ -25,14 +25,11 @@ You must have them installed in your environment in order for it to compile.
 
 ### Creating a LED Object
 
-[LED Object](/docs/Led.md)
+[LED Class](/docs/Led.md)
 
-This object represents a LED with all its methods and properties. You must create one of this objects for each connected LED. You must pass the pin number where the LED is connected as an argument of the constructor method of the class.
+This object represents a LED with all its methods and properties. You must create one of this objects for each connected LED and pass the pin number where the LED is connected as an argument of the constructor method of the class. 
 
 ``` c++
-// pin: 		[required] The pin number where the LED is connected.
-// polarity: 	[optional] Argument to define the polarity of the LED.
-//                         Allowed values: COMMON_NEGATIVE, COMMON_POSITIVE.
 Led myLed(pin, polarity);
 ```
 
@@ -40,7 +37,7 @@ Led myLed(pin, polarity);
 
 ### Creating NeoPixel Object
 
- [NeoPixel Object](/docs/NeoPixel.md)
+ [NeoPixel Class](/docs/NeoPixel.md)
 
 This object represents a NeoPixel with all its methods and properties. You must create one of this objects for each NeoPixel. The order in which these objects are created must match their position in the NeoPixelStrip. 
 
@@ -77,37 +74,17 @@ void loop(){
 
 
 
-### setNeoPixelPin
-
-Set the pin number where the NeoPixel is connected.
-
-```` c++
-setNeoPixelPin(pin);
-````
-
-
-
-### setNeoPixelType
-
-Set the NeoPixel type. 
-
-```` c++
-setNeoPixelType(neoPixelType);
-````
-
-
-
-
-
 ## That's it!  
 
 You are now ready to start calling the methods of your LEDs and NeoPixels.
 
-[LED Object](/docs/Led.md)
+[LED Class](/docs/Led.md)
 
-[NeoPixel Object](/docs/NeoPixel.md)
+[NeoPixel Class](/docs/NeoPixel.md)
 
-[Color Object](/docs/Color.md)
+[Color Class](/docs/Color.md)
+
+[LedSync Class](/docs/LedSync.md)
 
 
 

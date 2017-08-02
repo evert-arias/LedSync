@@ -1,4 +1,4 @@
-# NeoPixel Object
+# NeoPixel Class
 
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)
 
@@ -6,7 +6,7 @@
 
 ### Set color
 
-[Color Object](/docs/Color.md)
+[Color Class](/docs/Color.md)
 
 The ``` setColor()``` method allow you to set the color of the NeoPixel. If you don't set the color, green will be selected by default.
 
@@ -45,11 +45,6 @@ myPixel.setBrightness(brightnessValue);
 You may call the **Blink** function everywhere in the sketch. 
 
 ```c++
-// onDuration: 		[required] The time that the pixel will stay ON in the cycle.
-// offDuration: 	[required] The time that the pixel will stay OFF in the cycle.
-// pauseDuration: 	[required] The time that the pixel will be OFF between sequences.
-// sequences: 		[required] The number of times to repeat the sequences.
-// callback: 		[required] The function to call when finished.
 myPixel.blink(onDuration, offDuration, cycles, pauseDuration, sequences, callback);
 ```
 
@@ -60,8 +55,6 @@ myPixel.blink(onDuration, offDuration, cycles, pauseDuration, sequences, callbac
 Turn ON the NeoPixel.
 
 ```` c++
-// color: 		[optional] A Color object.
-// brightness: 	[optional] A value from 0 to 255.
 myPixel.on(color, brightness);
 ````
 
@@ -82,10 +75,6 @@ myPixel.off();
 Turn ON the NeoPixel for a time then call a callback function.
 
 ```` c++
-// color:       [optional A Color object.
-// brightness: 	[optiona] A value from 0 to 255.
-// onDuration: 	The time that the pixel will stay ON.
-// callback: 	The function to call when finished.
 myPixel.onUntil(color, brightness, onDuration, callback);
 ````
 
@@ -96,8 +85,6 @@ myPixel.onUntil(color, brightness, onDuration, callback);
 Turn OFF the NeoPixel for a time then call a callback function.
 
 ```` c++
-// offDuration: The time that the pixel will stay OFF.
-// callback: 	The function to call when finished.
 myPixel.offUntil(offDuration, callback);
 ````
 
