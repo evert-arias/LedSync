@@ -25,6 +25,8 @@ There is also a PixelColor object included, which allows you to set the color of
 myPixel.setColor(PixelColor.blue());
 ```
 
+[Color Object](/docs/Color.md)
+
 
 
 ### Set brightness

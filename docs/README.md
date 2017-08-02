@@ -34,7 +34,7 @@ This object represents a LED with all its methods and properties. You must creat
 Led myLed(pin, polarity);
 ```
 
-[LED Object Methods](/docs/Led.md)
+[LED Object](/docs/Led.md)
 
 
 
@@ -46,7 +46,7 @@ This object represents a NeoPixel with all its methods and properties. You must 
 NeoPixel myPixel;
 ```
 
- [NeoPixel Object Methods](/docs/NeoPixel.md)
+ [NeoPixel Object](/docs/NeoPixel.md)
 
 
 
