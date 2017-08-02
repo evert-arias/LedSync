@@ -106,8 +106,8 @@ class LedSyncClass {
     LedSyncClass();
     LedSyncClass(byte neoPixelPin);
     LedSyncClass(byte neoPixelPin, neoPixelType _neoPixelType);
-    void setNeoPixelPin(neoPixelType _neoPixelType);
-    void setNeoPixelType(byte neoPixelType);
+    void setNeoPixelPin(byte _pin);
+    void setNeoPixelType(neoPixelType _neoPixelType);
     void add(NeoPixel *pixel);
     void add(Led *led);
     void update();

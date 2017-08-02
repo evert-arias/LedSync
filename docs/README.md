@@ -77,6 +77,33 @@ void loop(){
 
 
 
+### setNeoPixelPin
+
+Set the pin number where the NeoPixel is connected.
+
+```` c++
+setNeoPixelPin(pin);
+````
+
+
+
+### setNeoPixelType
+
+Set the NeoPixel type. Allowed values:
+
+NEO_GRB + NEO_KHZ800
+NEO_GRB + NEO_KHZ400
+NEO_RGB + NEO_KHZ800
+NEO_RGB + NEO_KHZ400
+
+```` c++
+setNeoPixelType(neoPixelType);
+````
+
+
+
+
+
 ## That's it!  
 
 You are now ready to start calling the methods of your LEDs and NeoPixels.
