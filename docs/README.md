@@ -25,7 +25,7 @@ You must have them installed in your environment in order for it to compile.
 
 ### Creating a LED Object
 
-[LED Class](/docs/Led.md)
+[LED Class](https://github.com/evert-arias/LedSync/blob/master/docs/Led.md)
 
 This object represents a LED with all its methods and properties. You must create one of this objects for each connected LED and pass the pin number where the LED is connected as an argument of the constructor method of the class. 
 
@@ -37,7 +37,7 @@ Led myLed(pin, polarity);
 
 ### Creating NeoPixel Object
 
- [NeoPixel Class](/docs/NeoPixel.md)
+ [NeoPixel Class](https://github.com/evert-arias/LedSync/blob/master/docs/NeoPixel.md)
 
 This object represents a NeoPixel with all its methods and properties. You must create one of this objects for each NeoPixel. The order in which these objects are created must match their position in the NeoPixelStrip. 
 
@@ -78,13 +78,13 @@ void loop(){
 
 You are now ready to start calling the methods of your LEDs and NeoPixels.
 
-[LED Class](/docs/Led.md)
+[LED Class](https://github.com/evert-arias/LedSync/blob/master/docs/Led.md)
 
-[NeoPixel Class](/docs/NeoPixel.md)
+[NeoPixel Class](https://github.com/evert-arias/LedSync/blob/master/docs/NeoPixel.md)
 
-[Color Class](/docs/Color.md)
+[Color Class](https://github.com/evert-arias/LedSync/blob/master/docs/Color.md)
 
-[LedSync Class](/docs/LedSync.md)
+[LedSync Class](https://github.com/evert-arias/LedSync/blob/master/docs/LedSync.md)
 
 
 
