@@ -6,7 +6,7 @@
 
 ### Set color
 
-The ``` setColor()``` method allow you to set the color of the NeoPixel. 
+The ``` setColor()``` method allow you to set the color of the NeoPixel. If you don't set the color, green will be selected by default.
 
 ```c++
 // Set the pixel color using a string with the HEX color code.
@@ -31,7 +31,7 @@ myPixel.setColor(PixelColor.blue());
 
 ### Set brightness
 
-The ```setBrightness()```  method allows you to set the brightness of the pixel. The ```brightnessValue``` could be any number from **0** to **255** where **255** is full brightness.
+The ```setBrightness()```  method allows you to set the brightness of the pixel. The ```brightnessValue``` could be any number from **0** to **255** where **255** is full brightness. If you don't set the brightness, **127** which is half of full brightness, will be selected by default.
 
 ```c++
 // Set the pixel brightness.

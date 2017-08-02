@@ -32,13 +32,13 @@
 #include <LedSync.h>
 
 // NeoPixel Instance
-Pixel myPixel;
+NeoPixel myNeoPixel;
 
 void setup() {
   // Add the NeoPixel to LedSync
-  LedSync.addPixel(&myPixel);
+  LedSync.add(&myNeoPixel);
   // Start blinking
-  myPixel.blink(100, 200, 5, 500, 10, NULL);
+  myNeoPixel.blink(100, 200, 5, 500, 10, NULL);
 }
 
 void loop() {
