@@ -89,12 +89,7 @@ setNeoPixelPin(pin);
 
 ### setNeoPixelType
 
-Set the NeoPixel type. Allowed values:
-
-NEO_GRB + NEO_KHZ800
-NEO_GRB + NEO_KHZ400
-NEO_RGB + NEO_KHZ800
-NEO_RGB + NEO_KHZ400
+Set the NeoPixel type. 
 
 ```` c++
 setNeoPixelType(neoPixelType);
