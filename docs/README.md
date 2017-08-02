@@ -28,9 +28,10 @@ You must have them installed in your environment in order for it to compile.
 This object represents a LED with all its methods and properties. You must create one of this objects for each connected LED. You must pass the pin number where the LED is connected as an argument of the constructor method of the class.
 
 ``` c++
-// Led Object
-// pin: The pin number where the LED is connected.
-Led myLed(pin);
+// pin: 		[required] The pin number where the LED is connected.
+// polarity: 	[optional] Argument to define the polarity of the LED.
+//                         Allowed values: COMMON_NEGATIVE, COMMON_POSITIVE.
+Led myLed(pin, polarity);
 ```
 
 [LED Object Methods](/docs/Led.md)
@@ -42,7 +43,6 @@ Led myLed(pin);
 This object represents a NeoPixel with all its methods and properties. You must create one of this objects for each NeoPixel. The order in which these objects are created must match their position in the NeoPixelStrip. 
 
 ``` c++
-// NeoPixel Object
 NeoPixel myPixel;
 ```
 
@@ -81,9 +81,11 @@ void loop(){
 
 You are now ready to start calling the methods of your LEDs and NeoPixels.
 
-[LED Object Methods](/docs/Led.md)
+[LED Object](/docs/Led.md)
 
-[NeoPixel Object Methods](/docs/NeoPixel.md)
+[NeoPixel Object](/docs/NeoPixel.md)
+
+[Color Object](/docs/Color.md)
 
 
 
