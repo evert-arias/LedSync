@@ -255,7 +255,7 @@ LedSyncClass::LedSyncClass(byte neoPixelPin, neoPixelType _neoPixelType):mPin(ne
 void LedSyncClass::setNeoPixelPin(byte _pin){
   mNeoPixel.setPin( _pin);
 };
-void LedSyncClass::setNeoPixelType(byte _neoPixelType){
+void LedSyncClass::setNeoPixelType(neoPixelType _neoPixelType){
   mNeoPixel.updateType(_neoPixelType);
 };
 void LedSyncClass::add(NeoPixel *pixel){
