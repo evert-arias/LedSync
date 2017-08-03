@@ -25,7 +25,8 @@
       "frameworks": "arduino"
     }
   ],
-  "frameworks": "arduino"
+  "frameworks": "arduino",
+  "platforms": "*"
 }
 
 
