@@ -17,7 +17,7 @@
   "dependencies": 
   [
     {
-      "name": "Adafruit NeoPixel ",
+      "name": "Adafruit NeoPixel",
       "frameworks": "arduino"
     },
     {
