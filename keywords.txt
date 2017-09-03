@@ -9,7 +9,7 @@
 LedSyncClass	KEYWORD1
 NeoPixel	KEYWORD1
 Color	KEYWORD1
-Led     KEYWORD1
+Led	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
