@@ -1,5 +1,6 @@
 {
   "name": "LedSync",
+  "version": "1.0.1",
   "keywords": "led, synchronous, blink, flash, neopixel, neopixels, arduino-library, lightemittingdiode, timer",
   "description": "Arduino library to perform synchronous blinking operations with LEDs and NeoPixels",
   "authors":
